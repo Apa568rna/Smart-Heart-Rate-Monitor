@@ -1,15 +1,15 @@
-# 💓 Smart Heart Rate Monitor
+ Smart Heart Rate Monitor
 
 A compact Arduino-based system that uses the MAX30100 pulse oximeter sensor to monitor heart rate (bpm) and blood oxygen saturation (SpO₂), transmitting the data over Bluetooth using an HC-05 module.
 
-## 📌 Features
+ Features
 
 - Real-time heart rate and SpO₂ monitoring  
 - Beat detection with visual feedback via Serial Monitor  
 - Bluetooth communication for wireless data transmission  
 - Lightweight and efficient code for embedded applications
 
-## 🧰 Hardware Requirements
+Hardware Requirements
 
 - Arduino Uno/Nano  
 - MAX30100 Pulse Oximeter Sensor  
@@ -17,7 +17,7 @@ A compact Arduino-based system that uses the MAX30100 pulse oximeter sensor to m
 - Jumper Wires  
 - USB Cable
 
-## 🔌 Circuit Connections
+ Circuit Connections
 
 | MAX30100 Pin | Arduino Pin |
 |--------------|-------------|
@@ -28,18 +28,18 @@ A compact Arduino-based system that uses the MAX30100 pulse oximeter sensor to m
 
 > 💡 Connect HC-05 TX to Arduino RX, and RX to Arduino TX (with voltage divider if needed).
 
-## 📦 Library Used
+ Library Used
 
 - [`MAX30100_PulseOximeter`](https://github.com/oxullo/Arduino-MAX30100)  
   Install it via Arduino Library Manager or clone from GitHub.
 
-## 🧠 Code Overview
+Code Overview
 
 - Initializes the MAX30100 sensor  
 - Detects heartbeats and logs them  
 - Sends heart rate and SpO₂ data every 1 second over Bluetooth
 
-## 🚀 Getting Started
+Getting Started
 
 1. Connect your components as per the circuit.
 2. Upload the code using Arduino IDE.
